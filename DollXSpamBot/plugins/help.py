@@ -5,13 +5,13 @@ from time import time
 from datetime import datetime
 from DollXSpamBot import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/a21ba38c03755bce23bb6.jpg"
+HELP_PIC = "https://graph.org/file/33fc93cc2201d10f25f7d.jpg"
 
-DOLL_Help = "🔥 𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩 🔥\n\n"
+DOLL_Help = "🇦ᴛΔɴᴋɪ 🇸𝙿𝙰𝙼\n\n"
 
-DOLL_Help = "**꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂**\n"
+DOLL_Help = "**𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 - @ite_Aryaan**\n"
  
-DOLL_Help += f"__ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴅᴏʟʟ ✘ sᴘᴀᴍ ʙᴏᴛ__\n\n"
+DOLL_Help += f"__ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ 🇦ᴛΔɴᴋɪ 🇸𝙿𝙰𝙼 𝙱𝙾𝚃__\n\n"
 
 DOLL_Help += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 
@@ -29,7 +29,7 @@ DOLL_Help += f" `!pornspam` - ɪ ᴡɪʟʟ ꜱᴜɢɢᴇꜱᴛ ᴅᴏɴ'ᴛ ᴜ�
 
 DOLL_Help += f" `!hang` - 😂 ↧\n\n"
 
-DOLL_Help += f" `!bspam` - 𝗕𝗜𝗥𝗧𝗛𝗗𝗔𝗬 𝗦𝗣𝗔𝗠🥵 ↧\n\n"
+DOLL_Help += f" `!bspam` - 𝗕𝗜𝗥𝗧𝗛𝗗𝗔𝗬 𝗦𝗣𝗔𝗠 ↧\n\n"
 
 DOLL_Help += f"© @Dollx_spambot\n"
 
@@ -42,7 +42,7 @@ async def help(event):
                                   caption=DOLL_Help,
                                   buttons=[
         [
-        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/Dollx_spambot")
+        Button.url("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", "https://t.me/THECCHUB")
         ] 
         ]
         )

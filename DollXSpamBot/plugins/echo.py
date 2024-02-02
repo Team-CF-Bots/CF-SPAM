@@ -49,7 +49,7 @@ async def echo(event):
                      await event.reply("Echo Is Already Activated On This User !!")
                      return
                  addecho(user_id, chat_id)
-                 await event.reply("Echo Activated On The User ✅")
+                 await event.reply("𝙰𝙱𝙷𝙸 𝙼𝙰𝙰 𝙲𝙷𝙾𝙳𝚃𝙴 𝙷𝙰𝙸 𝙸𝚂𝙺𝙸 𝙴𝙲𝙷𝙾 𝚂𝙴")
      else:
           await event.reply(usage)
 
@@ -78,7 +78,7 @@ async def echo(event):
                 pass
             if is_echo(user_id, chat_id):
                 remove_echo(user_id, chat_id)
-                await event.reply("Echo Has Been Stopped For The User ☑️")
+                await event.reply("𝙹𝙰𝙰 𝙱𝙰𝙲𝙲𝙷𝙴 𝙼𝙰𝙵𝙵 𝙺𝙸𝚈𝙰")
             else:
                 await event.reply("Echo Is Already Disabled !!")
      else:

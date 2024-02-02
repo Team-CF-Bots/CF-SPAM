@@ -39,7 +39,7 @@ async def alive(event):
         Button.url("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿", "https://t.me/+OATHrCdJxMsxMzI1")
         ],
         [
-        Button.url("𝚂𝙴𝙲𝚄𝚁𝙴 𝙲𝙾𝙳𝙴", "https://t.me/its_Aryaan")
+        Button.url("𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴", "https://t.me/its_Aryaan")
         ]
         ]
         )

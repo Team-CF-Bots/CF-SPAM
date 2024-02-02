@@ -15,15 +15,15 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-DOLL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/f8d63b1dc5676fc9988f1.jpg"
+DOLL_PIC = ALIVE_PIC if ALIVE_PIC else "https://graph.org/file/33fc93cc2201d10f25f7d.jpg"
 
 
-DOLL = "✯ 𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝙃𝙀𝙍𝙀 ✯\n\n"
-DOLL += f"**꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂**\n"
+DOLL = "✯ 🇦ᴛΔɴᴋɪ 🇸𝙿𝙰𝙼 ✯\n\n"
+DOLL += f"**𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 - @its_Aryaan**\n"
 DOLL += f"═══════════════════\n"
 DOLL += f"• **𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `3.10.1`\n"
 DOLL += f"• **𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `{version.__version__}`\n"
-DOLL += f"• **𝙳𝙾𝙻𝙻 𝚇 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃 𝚅𝙴𝚁𝚂𝙸𝙾𝙽**  : `{deadlyversion}`\n"
+DOLL += f"• **🇦ᴛΔɴᴋɪ 🇸𝙿𝙰𝙼 𝙱𝙾𝚃 𝚅𝙴𝚁𝚂𝙸𝙾𝙽**  : `{deadlyversion}`\n"
 DOLL += f"═══════════════════\n\n"   
 
                                   
@@ -35,11 +35,11 @@ async def alive(event):
                                   caption=DOLL,
                                   buttons=[
         [
-        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/Dollx_spambot"),
-        Button.url("🇮🇳sᴜᴘᴘᴏʀᴛ🇮🇳", "https://t.me/DollxSpam_BOT")
+        Button.url("𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", "https://t.me/Thecchub"),
+        Button.url("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿", "https://t.me/+OATHrCdJxMsxMzI1")
         ],
         [
-        Button.url("• 🙂ʀᴇᴘᴏ🙂 •", "https://github.com/DOMINATOR-XD/DollXSpamBot")
+        Button.url("𝚂𝙴𝙲𝚄𝚁𝙴 𝙲𝙾𝙳𝙴", "https://t.me/its_Aryaan")
         ]
         ]
         )
@@ -88,7 +88,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n ⚡️𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝙃𝙀𝙍𝙀⚡️ \n\n ꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂ \n\n❤️ `{ms}` 𝗺𝘀 ❤️")
+        await event.edit(f"🇦ᴛΔɴᴋɪ\n🇸𝙿𝙰𝙼\n𝙱𝙾𝚃𝚂\n\n 🇦ᴛΔɴᴋɪ 🇸𝙿𝙰𝙼 \n\n𝙼𝙰𝙸𝙽 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁\n\n@its_Aryaan\n\n `{ms}` 𝗺𝘀 ❤️")
         
         
 
@@ -104,7 +104,7 @@ async def ping(e):
 @BOT9.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "𝐑𝐞𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ↪️.. Please Wait Until It Starts Again"
+        text = "𝐑𝐞𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ↪️.. 𝚁𝚄𝙺𝙾 𝚁𝙴𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙷𝙾𝙶𝙰"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await BOT0.disconnect()
@@ -159,12 +159,12 @@ sudousers = os.environ.get("SUDO_USER", None)
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
 async def tb(event):
     if event.sender_id == OWNER_ID:
-        ok = await event.reply("Adding user as a sudo...")
+        ok = await event.reply("𝚁𝚄𝙺𝙾 𝙴𝙺 𝙰𝚄𝚁 𝙱𝙷𝙰𝙳𝚆𝙰 𝚂𝚄𝙳𝙾 𝙰𝙳𝙳 𝙷𝙾 𝚁𝙰𝙷𝙰...")
         DEADLY = "SUDO_USER"
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
         else:
-            await ok.edit("`[HEROKU]:" "\nPlease setup your` **HEROKU_APP_NAME**")
+            await ok.edit("`[HEROKU]:" "\n𝙿𝚕𝚎𝚊𝚜𝚎 𝚜𝚎𝚝𝚞𝚙 𝚢𝚘𝚞𝚛` **HEROKU_APP_NAME**")
             return
         heroku_var = app.config()
         if event is None:
@@ -177,7 +177,7 @@ async def tb(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
+        await ok.edit(f"**Added `{target}` ** 𝚁𝙴𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝚁𝙰𝙷𝙰 𝙱𝙴𝙷𝙴𝙽 𝙺𝙴 𝙻𝙰𝚄𝙳𝙾 𝚆𝙰𝙸𝚃 𝙺𝙰𝚁𝙾...")
         heroku_var[DEADLY] = newsudo   
    
      

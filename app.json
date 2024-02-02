@@ -1,7 +1,7 @@
 {
-    "name": "𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩",
+    "name": "𝘾𝙁 ✘ 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩",
     "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
-    "logo": "",
+    "logo": "https://graph.org/file/d1bc2493a1f3923b7ae06.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -9,9 +9,9 @@
         "deadlySameer",
         "SpamBots"
     ],
-    "repository": "https://github.com/dominator454/DEADLY-SPAMBOT",
-    "website": "https://github.com/dominator454/DEADLY-SPAMBOT",
-    "success_url": "https://github.com/dominator454/DEADLY-SPAMBOT",
+    "repository": "https://github.com/Team-CF-Bots/CF-SPAM",
+    "website": "https://github.com/Team-CF-Bots/CF-SPAM",
+    "success_url": "https://github.com/Team-CF-Bots/CF-SPAM",
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",

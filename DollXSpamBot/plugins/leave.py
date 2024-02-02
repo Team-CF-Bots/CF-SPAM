@@ -30,7 +30,7 @@ async def _(e):
             event = await e.reply(text)
             try:
                 await event.client(LeaveChannelRequest(Xd))
-                await event.edit("sᴜᴄᴇssғᴜʟʟʏ ʟᴇғᴛ ᴛʜᴇ ᴄʜᴀᴛ ✅")
+                await event.edit("𝙼𝙰𝙰 𝙲𝙷𝙾𝙳 𝙳𝙸 𝙰𝙱 𝙲𝙷𝙰𝙻𝚃𝙴 𝙷𝙰𝙸 𝙶𝙰𝙽𝙳 𝙼𝙰𝚁𝙰𝙾 𝚂𝙰𝙱 ")
             except Exception as e:
                 await event.edit(str(e))   
         else:
